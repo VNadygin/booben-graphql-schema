@@ -1,0 +1,8 @@
+.gitignore
+.npmignore
+.gitlab-ci.yml
+.eslintrc
+.eslintignore
+.editorconfig
+.npmrc
+.prettierrc

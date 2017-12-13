@@ -1,0 +1,34 @@
+{
+  "name": "@jssy/graphql-schema",
+  "version": "0.1.0",
+  "description": "GraphQL schema utilities for Jssy",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:strict": "eslint --max-warnings=0 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.ordbuy.com:29184/jssy/graphql-schema.git"
+  },
+  "keywords": [
+    "jssy",
+    "graphql",
+    "schema"
+  ],
+  "author": "Dmitriy Bizyaev",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@jssy/types": "^0.6.0",
+    "lodash.mapvalues": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-universe": "^1.0.6",
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.9.2"
+  },
+  "pre-commit": [
+    "lint:strict"
+  ]
+}
