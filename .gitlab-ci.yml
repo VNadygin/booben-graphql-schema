@@ -10,8 +10,8 @@ stages:
 test:
   stage: test
   script:
-    - "yarn install"
-    - "yarn run lint:strict"
+    - "npm i"
+    - "npm run lint:strict"
   tags:
     - npm
 
