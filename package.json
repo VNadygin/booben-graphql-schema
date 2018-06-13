@@ -1,25 +1,21 @@
 {
-  "name": "@jssy/graphql-schema",
+  "name": "booben-graphql-schema",
   "version": "0.1.0",
-  "description": "GraphQL schema utilities for Jssy",
+  "description": "GraphQL schema utilities for Booben",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint .",
     "lint:strict": "eslint --max-warnings=0 ."
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@gitlab.ordbuy.com:29184/jssy/graphql-schema.git"
-  },
   "keywords": [
-    "jssy",
+    "booben",
     "graphql",
     "schema"
   ],
-  "author": "Dmitriy Bizyaev",
-  "license": "UNLICENSED",
+  "author": "braincrumbs.io",
+  "license": "MIT",
   "dependencies": {
-    "@jssy/types": "^0.6.0",
+    "booben-types": "^0.6.0",
     "lodash.mapvalues": "^4.6.0"
   },
   "devDependencies": {
