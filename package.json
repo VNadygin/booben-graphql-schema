@@ -26,5 +26,8 @@
   },
   "pre-commit": [
     "lint:strict"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
