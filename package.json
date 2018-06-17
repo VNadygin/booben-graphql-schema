@@ -15,7 +15,7 @@
   "author": "braincrumbs.io",
   "license": "MIT",
   "dependencies": {
-    "booben-types": "^0.6.0",
+    "booben-types": "^0.6.1",
     "lodash.mapvalues": "^4.6.0"
   },
   "devDependencies": {
